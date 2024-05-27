@@ -1,0 +1,144 @@
+:root{
+    --escura: #270F49;
+    --clara: #61428D;
+    --branco: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Be Vietnam Pro', 'Roboto';
+    background-color: var(--escura);
+    color: var(--branco);
+    list-style: none;
+}
+
+body{
+    font-size: 100%;
+}
+
+a:hover{
+    cursor: pointer;
+    border: var(--branco);
+    opacity: 50%;
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 2px 0 0;
+    color: var(--branco);
+}
+
+.nav_link{
+    padding: 10px;
+}
+
+.nav_link:hover{
+    border-bottom: var(--branco) dashed 2px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -80px ;
+}
+
+.img_lp{
+    margin-left: -150px;
+    margin-top: 100px;
+}
+
+.page_content{
+    color: var(--branco);
+    margin-top: 40px;
+}
+
+.title{
+    font-size: 60px;
+    max-width: 80%;
+    text-align: end;
+}
+
+.text{
+    font-size: 30px;
+    max-width: 80%;
+    text-align: end;
+    padding: 20px 0 0 0;
+}
+
+section{
+    padding: 0px -10px 0 -10px;
+    margin-top: 70px;
+}
+
+strong{
+    font-size: 60px;
+}
+
+.pacotes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    margin: 100px;
+}
+
+.content_arraial{
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.arraial_title{
+    display: flex;
+    flex-direction: row;
+}
+
+.ver_mais:hover{
+    cursor: pointer;
+}
+
+.ver_mais{
+    margin-left: 30px;
+    margin-bottom: -15px;
+}
+
+
+.setas{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    margin-top: 28px;
+    gap: 30px;
+    justify-content: flex-start;
+}
+
+.text_total{
+    display: flex;
+}
+
+.arraial_text{
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.arraial_topic{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 27px;
+    font-size: 25px;
+}
+
+.img_arraial{
+    width: 850px;
+    display: flex;
+}
