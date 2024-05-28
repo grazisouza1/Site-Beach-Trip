@@ -7,7 +7,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
     font-family: 'Be Vietnam Pro', 'Roboto';
     background-color: var(--escura);
@@ -17,6 +16,8 @@
 
 body{
     font-size: 100%;
+    overflow-x: hidden;
+    padding: 3rem 7rem 1rem 0rem;
 }
 
 a:hover{
@@ -29,9 +30,13 @@ a:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 24px 2px 0 0;
+    justify-content: space-between;
     color: var(--branco);
+}
+
+.logo{
+    margin-right: 400px;
+    padding-left: 60px;
 }
 
 .nav_link{
@@ -44,62 +49,52 @@ a:hover{
 
 main{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin-top: -80px ;
 }
 
 .img_lp{
-    margin-left: -150px;
+    margin-left: -190px;
     margin-top: 100px;
 }
 
 .page_content{
     color: var(--branco);
-    margin-top: 40px;
 }
 
 .title{
     font-size: 60px;
-    max-width: 80%;
     text-align: end;
 }
 
 .text{
-    font-size: 30px;
-    max-width: 80%;
+    font-size: 25px;
     text-align: end;
     padding: 20px 0 0 0;
 }
 
-section{
-    padding: 0px -10px 0 -10px;
-    margin-top: 70px;
-}
-
-strong{
-    font-size: 60px;
-}
-
 .pacotes{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 300px;
-    margin: 100px;
-}
-
-.content_arraial{
-    max-width: 1100px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
+    margin: 3rem 8rem 1rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 670px;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "title img"
+    "text img"
+    "preco img"
+    ;
+    gap: 40px;
 }
 
 .arraial_title{
     display: flex;
-    flex-direction: row;
+    grid-area: title;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arraial_cabo{
+    font-size: 40px;
+    grid-area: title;
 }
 
 .ver_mais:hover{
@@ -107,38 +102,35 @@ strong{
 }
 
 .ver_mais{
-    margin-left: 30px;
-    margin-bottom: -15px;
+    padding-top: 15px;
 }
 
+.text_total{
+    grid-area: text;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "setas texto"
+    ;
+}
 
 .setas{
     display: flex;
     flex-direction: column;
     width: 30px;
-    margin-top: 28px;
     gap: 30px;
-    justify-content: flex-start;
-}
-
-.text_total{
-    display: flex;
-}
-
-.arraial_text{
-    margin-top: 30px;
-    gap: 30px;
+    grid-area: setas;
 }
 
 .arraial_topic{
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-    margin-bottom: 27px;
+    margin: 0px 0px 30px 10px ;
     font-size: 25px;
+    grid-area: texto;
 }
 
 .img_arraial{
-    width: 850px;
-    display: flex;
+    width: 865px;
+    grid-area: img;
+    padding: -10px;
 }
