@@ -37,10 +37,14 @@ section{
     border-radius: 12px;
     padding: 10px 14px;
     transition: background-color .3s ease;
+    cursor: pointer;
 }
 
 .btn-ver-mais:hover{
     background-color: #412C5E;
-
 }
 
+.title-text{
+    font-size: 45px;
+    color: var(--branco);
+}

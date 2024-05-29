@@ -11,6 +11,7 @@
 .arraial{
     display: flex;
     padding: 36px;
+    margin: 24px;
 }
 
 .pacotes-title{
@@ -19,22 +20,17 @@
     align-items: center;
 }
 
-.arraial-cabo{
-    font-size: 45px;
-}
 
 .subtext{
     display: flex;
     flex-direction: row;
     font-size: 20px;
+    padding: 24px;
 }
 
-.topics{
-    gap: 24px;
-}
-
-.topics{
-    margin: 24px;
+.topic{
+    margin: 36px;
+    margin-left: 0px;
 }
 
 .setas{
@@ -50,13 +46,34 @@
     height: auto;
 }
 
-.text-totais{
+.texts-totais{
     color: var(--branco );
     display: flex;
     flex-direction: column;
+}
+
+.text-preco{
+    display: flex;
+    background-color: var(--clara);
+    border-radius: 12px;
+    padding: 18px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
 }
 
 #img_arraial{
     width: 700px;
     height: auto;
 }
+
+#img_mar{
+    width: 700px;
+    height: auto;
+}
+
+.mar{
+    display: flex;
+}
+
