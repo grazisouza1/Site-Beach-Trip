@@ -14,12 +14,13 @@ header{
 #nav_list{
     display: flex; /*Deixa os itens da "div" list um do lado do outro. Não adianta colocar flex na nav bar e querer que a lista também fique com os itens um do lado do outro. Tem que imaginar os itens do menu como uma div diferente*/
     list-style: none;
-    gap: 64px;
+    gap: 84px;
+    align-items: center;
 }
 
 .nav-item a{
-    color: var(--branco);
     font-weight: 400;
+    color: var(--branco);
 }
 
 .nav-item.active a{

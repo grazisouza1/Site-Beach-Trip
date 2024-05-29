@@ -1,0 +1,62 @@
+#pacotes{
+    color: var(--branco);
+}
+
+.section-title{
+    font-size: 40px;
+    text-align: center;
+    padding: 36px;
+}
+
+.arraial{
+    display: flex;
+    padding: 36px;
+}
+
+.pacotes-title{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.arraial-cabo{
+    font-size: 45px;
+}
+
+.subtext{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.topics{
+    gap: 24px;
+}
+
+.topics{
+    margin: 24px;
+}
+
+.setas{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 36px;
+    margin: 24px;
+}
+
+.seta{
+    width: 40px;
+    height: auto;
+}
+
+.text-totais{
+    color: var(--branco );
+    display: flex;
+    flex-direction: column;
+}
+
+#img_arraial{
+    width: 700px;
+    height: auto;
+}

@@ -14,11 +14,17 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 body{
     background-color: var(--escura);
-    padding: 28px 8%;
+    padding: 24px 3%;
+    padding-top: 0;
+}
+
+section{
+    padding: 16px;
 }
 
 .btn-ver-mais{
@@ -37,3 +43,4 @@ body{
     background-color: #412C5E;
 
 }
+
