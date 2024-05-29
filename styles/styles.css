@@ -21,28 +21,6 @@ body{
     padding: 28px 8%;
 }
 
-#navbar{
-    width: 100%;
-    display: flex; /*Deixa os itens na NAV BAR um do lado do outro*/
-    align-items: center;
-    justify-content: space-between;
-}
-
-#nav_list{
-    display: flex; /*Deixa os itens da "div" list um do lado do outro. Não adianta colocar flex na nav bar e querer que a lista também fique com os itens um do lado do outro. Tem que imaginar os itens do menu como uma div diferente*/
-    list-style: none;
-    gap: 64px;
-}
-
-.nav-item a{
-    color: var(--branco);
-    font-weight: 400;
-}
-
-.nav-item.active a{
-    border-bottom: 3px solid var(--clara);
-}
-
 .btn-ver-mais{
     border: none;
     display: flex;
@@ -52,4 +30,10 @@ body{
     color: var(--branco);
     border-radius: 12px;
     padding: 10px 14px;
+    transition: background-color .3s ease;
+}
+
+.btn-ver-mais:hover{
+    background-color: #412C5E;
+
 }
