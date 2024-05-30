@@ -1,4 +1,29 @@
 #sobre{
     padding: 36px;
     margin: 24px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.texto-sobre .title-text{
+    font-size: 50px;
+    padding: 36px;
+    padding-left: 0;
+}
+
+.texto-sobre{
+    width: 50%;
+    font-size: 25px;
+    padding: 36px;
+}
+
+.logo-sobre{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-logo-sobre{
+    width: 90%;
 }

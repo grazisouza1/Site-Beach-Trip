@@ -1,0 +1,25 @@
+footer{
+    background-color: var(--rodape);
+    color: var(--branco);
+    margin: 24px -47px -25px -47px ;
+    padding: 24px;
+}
+
+.contato-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    height: auto;
+    padding: 24px;
+    align-items: center;
+    justify-content: end;
+    gap: 24px;
+}
+

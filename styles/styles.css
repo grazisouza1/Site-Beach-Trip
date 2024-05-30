@@ -6,13 +6,13 @@
     --escura: #270F49 ;
     --clara: #61428D;
     --branco: #FFFFFF;
+    --rodape: #0E0120;
 }
 
 *{
     font-family: 'Be Vietnam Pro', 'Roboto';
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
@@ -21,6 +21,7 @@ body{
     background-color: var(--escura);
     padding: 24px 3%;
     padding-top: 0;
+    box-sizing: border-box;
 }
 
 section{
