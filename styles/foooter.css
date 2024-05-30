@@ -12,14 +12,54 @@ footer{
 
 }
 
+.text-contato{
+    padding: 16px;
+    margin: 16px;
+    padding-top: 16px;
+}
+.contato-phone{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    width: 33%;
+}
+
+
 .redes-sociais{
     display: flex;
     flex-direction: row;
     width: 33%;
     height: auto;
-    padding: 24px;
+    padding: 32px;
+    margin-right: 32px;
     align-items: center;
     justify-content: end;
     gap: 24px;
+    font-size: 30px;
+}
+
+#phone{
+    padding-top: 0px;
+    padding-left: 16px;
+    margin-left: 16px;
+    gap: 12px;
+}
+
+.phone-div{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.logo-rodape{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: var(--branco);
 }
 
