@@ -10,8 +10,9 @@
 }
 
 .arraial{
+    justify-content: center;
     display: flex;
-    padding: 36px;
+    padding: 24px;
     margin: 24px;
 }
 
@@ -51,6 +52,7 @@
     color: var(--branco );
     display: flex;
     flex-direction: column;
+    margin: 5%;
 }
 
 .text-preco{
@@ -62,6 +64,12 @@
     justify-content: center;
     align-items: center;
     font-weight: 500;
+}
+
+.banner-viagem{
+    margin: 5%;
+    align-content: center;
+    justify-content: center;
 }
 
 #img_arraial{
@@ -76,5 +84,7 @@
 
 .mar{
     display: flex;
+    justify-content: center;
 }
+
 
