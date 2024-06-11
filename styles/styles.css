@@ -18,8 +18,9 @@
 }
 
 body{
+    margin: 0;
+    padding: 0;
     background-color: var(--escura);
-    padding: 24px 3%;
     padding-top: 0;
     box-sizing: border-box;
 }
