@@ -7,5 +7,5 @@
 
   O site se trata de uma empresa de viagens para formatura. A empresa é ficticia, e foi criada para ser apresentada no TCC do curso de administração FIEC, o qual terá o último módulo em 06/2024
 
-  ### Site disponível [aqui](beachtrip.vercel.app)!
+  ### Site disponível <a href="beachtrip.vercel.app">aqui!</a>
   
