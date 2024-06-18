@@ -1,7 +1,7 @@
 
 header{
     width: 100%;
-    padding: 14px 0px 14px 0px;
+    padding: 3px;
     background-color: var(--escura);
     /*background-color: rgba(var(--escura), 0.9);
     backdrop-filter: blur(10px); <- Deixar o header transparente*/
@@ -16,6 +16,12 @@ header{
     display: flex; /*Deixa os itens na NAV BAR um do lado do outro*/
     align-items: center;
     justify-content: space-around;
+    padding-top: -20px;
+}
+
+.logo{
+    width: 8.5rem;
+    height: auto;
 }
 
 #nav_list{
@@ -35,4 +41,7 @@ header{
     border-bottom: 2px var(--clara) dashed;
 }
 
-
+.icon_profile{
+    width: 60px;
+    height: auto;
+}
