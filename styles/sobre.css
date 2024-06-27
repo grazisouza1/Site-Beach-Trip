@@ -28,6 +28,42 @@
     width: 90%;
 }
 
+@media screen and (min-width: 321px) and (max-width: 376px) {
+    #sobre{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 12px;
+        margin: 12px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-sobre{
+        width: 100%;
+    }
+    
+    .img-logo-sobre{
+        width: 200px;
+    }
+
+    .texto-sobre{
+        width: 100%;
+        padding: 12px;
+        justify-content: center;
+    }
+
+    .texto-sobre .title-text{
+        font-size: 30px;
+        padding: 0 0 12px 0;
+    }
+
+    .paragrafo-sobre{
+        font-size: 15px;
+        margin: 12px;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 320px) {
     #sobre{
         display: flex;

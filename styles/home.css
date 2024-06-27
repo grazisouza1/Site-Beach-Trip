@@ -39,7 +39,12 @@
     height: 40px;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
+    #img_lp{
+        display: none;
+        margin-left: -250px;
+    }
+
     #text_menu{
         width: 100%;
         height: 50%;
@@ -76,3 +81,46 @@
         height: 40px;
     }
 }
+
+@media screen and (min-width: 321px) and (max-width: 376px) {
+    #img_lp{
+        display: none;
+    }
+
+    #text_menu{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        margin-top: 5%;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    .title{
+        width: 300px;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .description{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .aviao_div{
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }  
+
+    .aviaozinho{
+        padding: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
