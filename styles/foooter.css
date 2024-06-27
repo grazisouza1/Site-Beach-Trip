@@ -8,7 +8,7 @@ footer{
 .contato-content{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -17,13 +17,13 @@ footer{
     margin: 16px;
     padding-top: 16px;
 }
+
 .contato-phone{
     display: flex;
     flex-direction: column;
     padding-bottom: 0px;
     width: 33%;
 }
-
 
 .redes-sociais{
     display: flex;
@@ -48,7 +48,7 @@ footer{
 .phone-div{
     display: flex;
     flex-direction: row;
-    gap: 12px;
+    gap: 8px;
     align-items: center;
 }
 
@@ -63,3 +63,47 @@ a{
     color: var(--branco);
 }
 
+@media screen and (max-width: 320px){
+    footer{
+        padding: 12px 12px 24px 12px;
+    }
+
+    .contato-phone {
+        display: flex;
+        width: 50%;
+    }
+
+    .phone-div p{
+        white-space: nowrap;
+    }
+
+    .text-contato{
+        font-size: 15px;
+        padding: 12px;
+        margin: 0 0 0 40px;
+    }
+
+    .phone-div{
+        display: flex;
+        margin: 0 0 0 20px;
+        font-size: 10px;
+        width: 8px;
+    }
+
+    .logo-rodape{
+        display: none;
+    }
+
+    .redes-sociais{
+        align-items: center;
+        justify-content: center;
+        padding: 4px 40px 4px 4px;
+        margin: 4px;
+        width: 50%;
+        gap: 12px;
+    }
+
+    .social-item{
+        font-size: 20px;
+    }
+}

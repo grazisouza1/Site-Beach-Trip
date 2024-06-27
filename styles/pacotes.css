@@ -4,25 +4,25 @@
 }
 
 .section-title{
-    font-size: 40px;
     text-align: center;
     padding: 14px;
     padding-bottom: 0;
 }
 
-.arraial{
-    justify-content: center;
-    display: flex;
-    padding: 24px;
-    margin: 24px;
+.title-pacotes{
+    font-size: 50px;
 }
 
 .pacotes-title{
     display: flex;
-    gap: 14px;
-    align-items: center;
+    gap: 24px;
 }
 
+.arraial{
+    justify-content: center;
+    display: flex;
+    margin: 24px;
+}
 
 .subtext{
     display: flex;
@@ -88,4 +88,81 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 320px){
+    .title-pacotes{
+        font-size: 40px ;
+    }
 
+    .arraial{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 0 20px 0;
+    }
+
+    #img_arraial{
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0 0 -30px;
+    }
+
+    .title-text{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pacotes-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-ver-mais{
+        margin: 20px 0 0 0;
+        width: 90px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subtext{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0 20px 0;
+        padding: 0;
+    }
+
+    .setas{
+        margin: 10px;
+    }
+
+    .topic{
+        font-size: 15px;
+        margin: 15px 0 30px 10px;
+    }
+
+    .preco{
+        width: 200px;
+    }
+
+    .text-preco{
+        font-size: 12px;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .mar{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 0 0;
+    }
+
+    #img_mar{
+        width: 230px;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0 0 -10px;
+    }
+}

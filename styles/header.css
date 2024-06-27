@@ -45,3 +45,33 @@ header{
     width: 60px;
     height: auto;
 }
+
+@media screen and (max-width: 320px){
+    #navbar{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .logo{
+        width: 100px;
+        margin: 5px 0 0 0;
+    }
+
+    #navbar{
+        display: flex;
+        justify-content: space-around;
+    }   
+
+    .nav-item{
+        display: none;
+    }
+
+    .icon_profile{
+        width: 40px;
+        align-items: center;
+    }
+
+    .banner{
+        display: none;
+    }
+}
